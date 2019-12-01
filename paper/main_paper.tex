@@ -1,0 +1,73 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage{geometry}
+\geometry{a4paper, left=30mm, right=20mm, top=30mm, bottom=30mm}
+
+\usepackage{t1enc}
+\usepackage[utf8]{inputenc}
+\usepackage[magyar]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsthm}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{ellipsis}
+\usepackage{multirow}
+\usepackage{tocloft}
+
+\usepackage[autostyle]{csquotes}
+\selectlanguage{magyar}
+\DeclareQuoteAlias{dutch}{magyar}
+
+\usepackage{apacite}
+\bibliographystyle{apacite}
+
+\usepackage{url}
+\usepackage{textcomp}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usetikzlibrary{positioning}
+
+\usepackage[decimalsymbol=comma]{siunitx}
+
+\usepackage[linewidth=0.33pt, rightline=false, leftline=false, framemethod=tikz]{mdframed}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\input{./misc/defines.tex}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definíció}
+
+\begin{document}
+    \ifdefined\otdk
+        \input{./misc/coverpage.tex}
+    \fi
+    \input{./misc/titlepage.tex}
+
+    \setlength{\cftbeforechapskip}{.2ex}
+    \setlength{\cftbeforesecskip}{-.5ex}
+    \tableofcontents
+
+    \input{./chapters/koszonetnyilvanitas.tex}
+
+    \input{./chapters/01-bevezetes.tex}
+    
+    % További fejezetek
+
+    \input{./chapters/0x-osszefoglalas.tex}
+
+    \bibliography{references.bib}
+
+    \input{./chapters/fuggelek.tex}
+
+    \input{./chapters/sajat-munka-leirasa.tex}
+\end{document}
