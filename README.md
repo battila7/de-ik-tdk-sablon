@@ -65,7 +65,7 @@ A következőkben a tároló mappastruktúrájának megfelelően ismertetjük, h
       * A hivatkozásokat tartalmazó BibTeX állomány.
   * [presentation](presentation) – A TDK dolgozathoz kapcsolódó előadás vázlata. Opcionális.
     * [build](presentation/build)
-      * Az előadás vázlata ebbe a mappába for bekerülni, PDF formátumban.
+      * Az előadás vázlata ebbe a mappába fog bekerülni, PDF formátumban.
     * [main-talk.tex](presentation/main-talk.tex)
       * Az előadás vázlatának megfelelő TeX forrásfájl.
     * [make-talk.bat](presentation/make-talk.bat), [make-talk.sh](presentation/make-talk.sh)
@@ -95,6 +95,7 @@ A kényelmes munkához telepítsük a [LaTeX Workshop](https://marketplace.visua
   * szintaxis kiemelés (syntax highlighting),
   * automatikus kódkiegészítés (IntelliSense),
   * az egérmutató alatt található képletek megjelenítése,
+  * fordítási hibák megjelenítése,
   * a dolgozat élő megjelenítése, mely a módosításokkal változik (akár egy szerkesztőfülön, akár egy böngészőfülben).
 
 ### Ismeretek
