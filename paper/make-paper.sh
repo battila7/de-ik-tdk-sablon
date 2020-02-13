@@ -2,16 +2,16 @@
 
 # Configuration
 OUTPUT_DIR=build
-MAIN=main-paper.tex
+MAIN="main-paper.tex"
 
 OTDK=otdk
-PDFLATEX_OPTIONS_OTDK="pdflatex %O \def\printName{1}\def\otdk{1}\input{%S}"
+PDFLATEX_OPTIONS_OTDK="pdflatex %O \"\def\printName{1}\def\otdk{1}\input{%S}\""
 
 TDK_WITH_NAME=tdk-nevvel
-PDFLATEX_OPTIONS_TDK_WITH_NAME="pdflatex %O \def\printName{1}\input{%S}"
+PDFLATEX_OPTIONS_TDK_WITH_NAME="pdflatex %O \"\def\printName{1}\input{%S}\""
 
 TDK_WITHOUT_NAME=tdk-nev-nelkul
-PDFLATEX_OPTIONS_TDK_WITHOUT_NAME="pdflatex %O \input{%S}"
+PDFLATEX_OPTIONS_TDK_WITHOUT_NAME="pdflatex %O \"\input{%S}\""
 
 # Actual build script
 REQUESTED_VERSION=$1
