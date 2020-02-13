@@ -163,9 +163,9 @@ Ezt követően hajtsuk végre a [A sablon mezők kitöltése](#A-sablon-mezők-k
 
 A sablon felhasználásával készültek a következő TDK dolgozatok, melyek jól bemutatják a sablon kimenetét:
 
-  * [CryptID – Platformfüggetlen Identity-based Encryption megoldás](https://github.com/battila7/ibe-tdk)
+  * [CryptID – Platformfüggetlen Identity-based Encryption megoldás](https://github.com/battila7/cryptid-tdk)
     * Szerzők: Bagossy Attila, Vécsi Ádám
-    * [PDF állományok](https://github.com/battila7/ibe-tdk/releases)
+    * [PDF állományok](https://github.com/battila7/cryptid-tdk/releases)
   * [Generátorok előállítása CPS-transzformációval Java nyelven](https://github.com/battila7/jield-tdk)
     * Szerző: Bagossy Attila
     * [PDF állományok](https://github.com/battila7/jield-tdk/releases)
