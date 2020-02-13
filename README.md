@@ -14,7 +14,6 @@ TDK dolgozat LaTeX sablon, mely megfelel a Debreceni Egyetem Informatikai Kar á
 **Tartalomjegyzék**
 
   * [Miért használjam ezt a sablont?](#Miért-használjam-ezt-a-sablont)
-  * [Felhasználás](#Felhasználás)
   * [A sablon tartalma](#A-sablon-tartalma)
   * [Előfeltételek](#Előfeltételek)
     * [Szoftveres előfeltételek](#Szoftveres-előfeltételek)
