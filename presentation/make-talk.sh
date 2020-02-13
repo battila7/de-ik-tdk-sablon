@@ -1,17 +1,14 @@
-@echo off
-@setlocal
+#!/usr/bin/env bash
 
-set OUTPUT_DIR=build
-set TALK_MAIN=main-talk.tex
+# Configuration
+OUTPUT_DIR=build
+TALK_MAIN=main-talk.tex
+TALK_OUTPUT=talk
 
-set LATEX_MAKE=latexmk
+# Actual build script
+rm -rf $OUTPUT_DIR
+mkdir $OUTPUT_DIR
 
-set TALK_OUTPUT=talk
+latexmk -f -pdf -jobname="$OUTPUT_DIR/$TALK_OUTPUT"  $TALK_MAIN
 
-rmdir /q /s %OUTPUT_DIR%
-
-mkdir %OUTPUT_DIR%
-
-%LATEX_MAKE% -f -pdf -jobname=%OUTPUT_DIR%/%TALK_OUTPUT%  %TALK_MAIN%
-
-%LATEX_MAKE% -c -f -jobname=%OUTPUT_DIR%/%TALK_OUTPUT%  %TALK_MAIN%
+latexmk -c -f -jobname="$OUTPUT_DIR/$TALK_OUTPUT"  $TALK_MAIN
