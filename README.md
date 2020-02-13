@@ -34,6 +34,7 @@ A következőkben nemcsak a sablon tulajdonságait szeretnénk kiemelni, hanem a
   * Mert LaTeX:
     * Könnyedén készíthetünk szép matematikai formulákat, legyen szó akármilyen bonyolult kifejezésről.
     * A dokumentumot több, kisebb fájlra bonthatjuk. Nem egy hatalmas állományt kell kezelnünk.
+    * A BibTeX leegyszerűsíti a hivatkozásokkal folytatott munkát.
   * Mert git és GitHub:
     * A git segítségével követhetjük a módosításokat, egyszerűen visszatérhetünk korábbi verziókra.
     * A GitHubra feltöltve biztosan nem fogunk egyetlen módosítást sem elveszíteni.
