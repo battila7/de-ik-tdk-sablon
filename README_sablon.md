@@ -1,14 +1,14 @@
 # {TDK cím}
 
-## {Egyetem}, {Kar}, {Tanszék}
+## {{Egyetem}}, {{Kar}}, {{Tanszék}}
 
 Szerzők:
-  * {Szerző 1}
-    * Email: {Szerző 1 Email}
+  * {{Szerző 1}}
+    * Email: {{Szerző 1 Email}}
 
 Témavezetők:
-  * {Témavezető 1}
-    * Email: {Témavezető 1 Email}
+  * {{Témavezető 1}}
+    * Email: {{Témavezető 1 Email}}
 
 ## Absztrakt
 
