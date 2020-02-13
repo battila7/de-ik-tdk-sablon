@@ -2,7 +2,7 @@
 @setlocal
 
 set OUTPUT_DIR=build
-set MAIN=main_paper.tex
+set MAIN=main-paper.tex
 
 set LATEX_MAKE=latexmk
 

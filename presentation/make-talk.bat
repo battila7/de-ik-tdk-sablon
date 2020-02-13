@@ -2,7 +2,7 @@
 @setlocal
 
 set OUTPUT_DIR=build
-set TALK_MAIN=main_talk.tex
+set TALK_MAIN=main-talk.tex
 
 set LATEX_MAKE=latexmk
 
