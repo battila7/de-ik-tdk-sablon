@@ -162,13 +162,34 @@ Ezt követően hajtsuk végre a [A sablon mezők kitöltése](#A-sablon-mezők-k
 
 ## Példák
 
-A sablon felhasználásával készültek a következő TDK dolgozatok, melyek jól bemutatják a sablon kimenetét:
+A sablon felhasználásával készültek a következő TDK dolgozatok. Open Source dolgozat esetén szerepel a kódot tartalmazó repository is:
 
+  * Attribute-based Encryption WASI-alapú platformfüggetlen implementációja
+    * Adatok:
+      * Szerzők: Szürti Szilárd Dávid, Mezei Botond.
+      * Témavezetők: Bagossy Attila, Vécsi Ádám.
+      * Helyi TDK-ra beadva 2020-ban.
+  * GDPR konform platform - formális kiértékelő logikával és munkafolyamat alapú elosztott szolgáltatásokkal
+    * Adatok:
+      * Szerzők: Szabó Gergely, Kovács Lajos.
+      * Témavezető: Dr. Adamkó Attila Tamás.
+      * Helyi TDK-ra beadva 2020-ban.
+  * PET és CT felvételek együttes feldolgozása
+    * Adatok:
+      * Szerzők: Simkó Szilárd Viktor, Bersenszki Márió.
+      * Témavezető: Dr. Harangi Balázs.
+      * Helyi TDK-ra beadva 2020-ban.
   * [CryptID – Platformfüggetlen Identity-based Encryption megoldás](https://github.com/battila7/cryptid-tdk)
-    * Szerzők: Bagossy Attila, Vécsi Ádám
+    * Adatok:
+      * Szerzők: Bagossy Attila, Vécsi Ádám.
+      * Témavezető: Dr. Pethő Attila.
+      * Helyi TDK-ra beadva 2018-ban.
     * [PDF állományok](https://github.com/battila7/cryptid-tdk/releases)
   * [Generátorok előállítása CPS-transzformációval Java nyelven](https://github.com/battila7/jield-tdk)
-    * Szerző: Bagossy Attila
+    * Adatok:
+      * Szerző: Bagossy Attila.
+      * Témavezetők: Dr. Battyányi Péter, Balla Tibor.
+      * Helyi TDK-ra beadva 2017-ben.
     * [PDF állományok](https://github.com/battila7/jield-tdk/releases)
 
 ## Licenc
