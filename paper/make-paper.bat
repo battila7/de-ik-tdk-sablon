@@ -22,7 +22,7 @@ if "%~1" == "otdk" (
   set NAME=%OTDK%
   set OPTIONS=%PDFLATEX_OPTIONS_OTDK%
 ) else if "%~1" == "tdk-nevvel" (
-  set NAM =%TDK_WITH_NAME%
+  set NAME=%TDK_WITH_NAME%
   set OPTIONS=%PDFLATEX_OPTIONS_TDK_WITH_NAME%
 ) else (
   set NAME=%TDK_WITHOUT_NAME%
